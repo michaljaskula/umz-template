@@ -102,3 +102,10 @@ for i in range(0, len(lr.predict(rtest))):
     t.write(str(lr.predict(rtest)[i]))
     t.write('\n')
 t.close()
+
+
+rdev_expected["y"]=rdev_expected["r"].map( {'g': 0, 'b': 1} ).astype(float)
+print(rdev_expected.head())
+print('Wykres')
+sns.regplot(x=rdev.M, y=rdev_expected.r, logistic=True, y_jitter=.1)
+plt.show()
