@@ -34,6 +34,14 @@ show_plot()
 # clf = clf.fit(train_X, train_Y)
 # show_plot()
 
+#clf = tree.DecisionTreeClassifier(min_samples_split=40)
+#clf = clf.fit(train_X, train_Y)
+#show_plot()
+
+#clf = tree.DecisionTreeClassifier(criterion="entropy")
+#clf = clf.fit(train_X, train_Y)
+#show_plot()
+
 print('TRAIN SET')
 print(confusion_matrix(clf.predict(train_X), train_Y))
 print(sum(clf.predict(train_X) == train_Y) / len(train_X))
