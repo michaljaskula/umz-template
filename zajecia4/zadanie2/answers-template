@@ -1,13 +1,43 @@
 TRAIN SET- NO DEPTH RESTRAIN
-accuracy:
+accuracy: 0.99
 
 TEST SET- NO DEPTH RESTRAIN
-accuracy:
+accuracy: 0.78
 
 TRAIN SET- MAX DEPTH 4
-accuracy:
+accuracy: 0.8229166666666666
+
 
 TEST SET- MAX DEPTH 4
-accuracy:
+accuracy: 0.6818181818181818
+
 
 YOUR OWN FOREST PARAMETERS:
+
+min_samples_leaf = 4, max_features='log2', n_estimators = 100
+
+TRAIN SET
+
+[[60  2  4  0  0  1]
+ [ 3 65  1  0  0  2]
+ [ 1  1 10  0  0  0]
+ [ 0  0  0 10  0  0]
+ [ 0  0  0  0  7  0]
+ [ 0  1  0  1  0 23]]
+
+accuracy: 0.9114583333333334
+
+
+TEST SET
+
+[[5 0 2 0 0 0]
+ [1 7 0 1 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 1 0 0]
+ [0 0 0 0 2 0]
+ [0 0 0 0 0 3]]
+
+accuracy: 0.8181818181818182
+
+
+
