@@ -1,16 +1,56 @@
 YOUR OWN PARAMETERS:
-TRAIN SET- 
-accuracy:
 
-TEST SET- 
-accuracy:
+
+TRAIN SET- n_neighbors=3
+accuracy: 0.84375
+
+
+TEST SET- n_neighbors=3
+accuracy: 0.6818181818181818
+
 
 ----------
 
-TRAIN SET- 
-accuracy:
+TRAIN SET- n_neighbors=5
+accuracy: 0.7760416666666666
 
-TEST SET- 
-accuracy:
 
-... ( to be completed with new parametrized models)
+TEST SET- n_neighbors=5
+accuracy: 0.5
+
+
+
+----------
+
+
+TRAIN SET- n_neighbors=10
+accuracy: 0.703125
+
+
+TEST SET- n_neighbors=10
+accuracy: 0.5454545454545454
+
+
+
+----------
+
+
+TRAIN SET- n_neighbors=15
+accuracy: 0.6822916666666666
+
+
+TEST SET- n_neighbors=15
+accuracy: 0.5
+
+
+----------
+
+
+TRAIN SET- n_neighbors=17
+accuracy: 0.671875
+
+
+TEST SET- n_neighbors=17
+accuracy: 0.5
+
+
